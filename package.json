@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-blog-site",
+  "version": "1.0.0",
+  "description": "Blog site using 11ty and Netlify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
