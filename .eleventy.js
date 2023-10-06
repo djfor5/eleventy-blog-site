@@ -13,6 +13,10 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       output: "_site" // _site is the default output folder, public might be another appropriate folder name
-    }
+    },
+    templateFormats: ['md', 'njk', 'html'],
+    markdownTemplateEngine: 'njk', // allows the use of nunjucks templating language in markdown files
+    htmlTemplateEngine: 'njk', // allows the use of nunjucks templating language in HTML files
+    dataTemplateEngine: 'njk',
   }
 }
